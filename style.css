@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.container {
+    width: 100%;
+    max-width: 1050px;
+    margin: auto;
+}
+#quicaddForm {
+    padding: 10px;
+    display: none;
+    background-color: lightgrey;
+}
+
+
+.inputGroupDiv {
+    width: 100%;
+    max-width: 1050px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 70%;
+    max-width: 700px;
+}
+
+textarea {
+    width: 70%;
+    max-width: 710px;
+}
+
+.addbook {
+    width: 100%;
+}
+
+.addbook .entry {
+    width: 100%;
+    max-width: 1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    width: 15%;
+    max-width: 175px;
+    margin: 0;
+ }
+
+.phone {
+    width: 15%;
+    max-width: 175px;
+    margin: 0;
+}
+
+.address {
+    width: 15%;
+    max-width: 175px;
+    margin: 0;
+}
+
+.city {
+    width: 5%;
+    max-width: 100px;
+    margin: 0;
+}
+
+.email {
+    width: 15%;
+    max-width: 175px;
+    margin: 0;
+}
+
+.del a{
+    width: 25%;
+    max-width: 175px;
+    margin-left: 50px;
+}
